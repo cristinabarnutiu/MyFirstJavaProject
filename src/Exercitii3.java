@@ -6,24 +6,19 @@ public class Exercitii3 {
             int vecinulMic = sir1[i]-1;
             int vecinulMare = sir1[i]+1;
             System.out.println("vecinii lui "+sir1[i]+" sunt: "+vecinulMic+","+vecinulMare);
-<<<<<<< HEAD
+
             if(sir1[i]<0){
             System.out.println(sir1[i]+" E mai mic decat 0");}
+
         }
 
-
-
-=======
-        }
-
->>>>>>> 99db2a8439c587bfe6439f499d9ec38485428958
             String sir2[]={"Anglia", "Romania", "Albania", "Franta", "Elvetia", "China", "SUA", "Australia"};
             for (String tara: sir2){
                 System.out.println(tara.charAt(0));
                 if(tara.charAt(0)=='A'){
                     System.out.println(tara+" incepe cu litera A");
                 }
-<<<<<<< HEAD
+
         }
 
         //ex 7
@@ -65,11 +60,11 @@ public class Exercitii3 {
 
 
 
-=======
+
 
         }
 
->>>>>>> 99db2a8439c587bfe6439f499d9ec38485428958
+
 
     }
-   }
+
