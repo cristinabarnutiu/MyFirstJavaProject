@@ -1,6 +1,6 @@
 public class JavaMethods {
     public static void main(String[] args) {
-        metoda1();
+        metoda1();//test
         metoda1();
         metoda2("Cristina");
         metoda2("Gelu");
