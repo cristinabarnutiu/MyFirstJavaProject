@@ -1,6 +1,10 @@
 public class JavaMethods {
     public static void main(String[] args) {
+<<<<<<< HEAD
         metoda1();//test
+=======
+        metoda1();
+>>>>>>> 99db2a8439c587bfe6439f499d9ec38485428958
         metoda1();
         metoda2("Cristina");
         metoda2("Gelu");
@@ -14,12 +18,17 @@ public class JavaMethods {
         System.out.println(result);
         System.out.println(sumReturn(4,4));
         System.out.println(stringReturn("capsuni"));
+<<<<<<< HEAD
         System.out.println(calculeazaNrCaractere("Australia"));
         System.out.println((sumRecursiv(1,2)));
         System.out.println((sumRecursiv2(1,2)));
         System.out.println(recursiv3("Apa"));
         System.out.println(concatenateStrings("unu","doi"));
         System.out.println(calculeazaNrCaractere2("Australia"));
+=======
+
+
+>>>>>>> 99db2a8439c587bfe6439f499d9ec38485428958
     }
 
     private static void metoda1 (){
@@ -32,6 +41,7 @@ public class JavaMethods {
     private static void sum(int a, int b){
         System.out.println(a+b);
     }
+<<<<<<< HEAD
 
     private static int sumRecursiv(int numar1,int numar2){
     return numar1+numar2;
@@ -55,6 +65,8 @@ public class JavaMethods {
     }
 
 
+=======
+>>>>>>> 99db2a8439c587bfe6439f499d9ec38485428958
      private static void sum(int x, int y, int z){
          System.out.println(x+y+z);
      }
@@ -67,12 +79,17 @@ public class JavaMethods {
     }
 
     private static int sumReturn(int a, int b){
+<<<<<<< HEAD
         return a+b;
+=======
+        return (a+b);
+>>>>>>> 99db2a8439c587bfe6439f499d9ec38485428958
     }
 
     private static String stringReturn(String fruct){
         return ("Imi place sa manananc "+fruct);
     }
+<<<<<<< HEAD
 
     private static int calculeazaNrCaractere(String cuvant){
         System.out.println("Cuvantul "+cuvant+" are nr de litere: ");
@@ -88,4 +105,6 @@ public class JavaMethods {
     }
 
 
+=======
+>>>>>>> 99db2a8439c587bfe6439f499d9ec38485428958
 }
